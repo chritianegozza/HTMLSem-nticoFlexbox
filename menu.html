@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Semântico</title>
+</head>
+<body>
+    <h2>HTML Semântico</h2>
+
+    <!-- Tag de cabeçalho é a header -->
+    <header>
+        <h1>O título mais importante dessa página</h1>
+        <p>Informações complementares</p>
+    </header>
+    <article>
+        <header>
+            <h2>Título do artigo</h2>
+            <p>por Gabiru</p>
+        </header>
+        <p>...Lorem Ipsum dolor set amet ...</p>
+    </article>
+
+    <!-- details é uma ferramenta de onde o usuario pode ter mais informações -->
+    <!-- summary é utilizado como sumário ou legenda para o conteudo de um elemento details -->
+    <details>
+        <summary>Detalhes</summary>
+        <p>Isto são detalhes.</p>
+    </details>
+
+    <!-- nav representa uma seção de uma pagina(link) -->
+    <nav>
+        <ul class="menu">
+            <li class="itens">Home</li>
+            <li class="itens">Sobre nós</li>
+            <li class="itens">Colaboradores</li>
+            <li class="itens">Contato</li>
+        </ul>
+    </nav>
+    <!-- menu semântico -->
+    <nav>
+        <ul>
+            <li><a href="#home">Página inicial</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contat">Contato</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- datalist contem um conjunto de elementos option que represetnam as opçoes possiveis para o valor do input -->
+
+    <!-- um input com a lista de browsers -->
+    <input list="browsers" />
+    <datalist id="browsers">
+        <option value="Chrome"></option>
+        <option value="Firefox"></option>
+        <option value="Internet Explorer"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+    </datalist>
+
+    <!-- progress seria uma barra de progresso -->
+    <h3>Barra de progresso</h3>
+    <section>
+        <progress value="70" max="100">70%</progress>
+    </section>
+
+    <!-- main ele é o conteudo principal da pagina, o main só tem um  -->
+    <main>
+        <!-- article é uma compontente independente que pode ser retutilizado  -->
+        <article>
+            <header>
+                <h2>Título do artigo</h2>
+                    <p>por Gabiru</p>
+            </header>
+            <p>...Lorem Ipsum dolor set amet ...</p>
+            <details>
+                <summary>Detalhes</summary>
+               <p>Isto são detalhes</p>
+            </details>
+        </article>
+    </main>
+
+    <!-- article  documento, página, aplicação, ou site, ou que é destinado a ser distribuído de forma independente ou reutilizável.-->
+     <article>
+        <h2>Este é o Título do artigo</h2>
+        <p>Este é o texto do artigo</p>
+        <article>
+            Isso é um conteudo independente relacionado
+            ao artigo, como um comentário.
+        </article>
+     </article>
+
+    <!-- aside é um conteudo que complementa e ela tem explicações, links uteis, menu de texto relacionados  -->
+    <main>
+        <article>
+            <header>
+                <h2>Ma Long</h2>  
+            </header>
+            <p>....Lorem Ipsum dolor set amet ...</p>
+        </article>
+    </main>
+
+    <aside>
+        <figure>
+            <p>Aqui vai a imagem</p>
+        </figure>
+        <p>Aqui vão as outras informações complementares</p>
+    </aside>
+
+    <!-- section  O elemento <section> representa uma seção genérica contida em um documento HTML, geralmente com um título-->
+    <section>
+        <h1>Sobre min</h1>
+        <p>Um monte de coisa que ninguém vai ler.</p>
+    </section>
+
+
+    <br>
+
+    <header></header>
+    <nav></nav>
+    <section>
+        <header></header>
+        <article></article>
+        <footer></footer>
+    </section>
+    <aside></aside>
+    <footer></footer>
+    
+
+    <!-- footer O elemento <footer> representa um rodapé para o seu conteúdo de seção mais próximo  -->
+        <footer>
+            <address>Escrito por christiane = Contato: email@gmail.com</address>
+        </footer>
+</body>
+</html>

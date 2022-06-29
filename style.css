@@ -1,0 +1,19 @@
+body{
+    width: 100%;
+    padding: 15px;
+    margin: 20px;
+    background-color: cornflowerblue;
+}
+
+.menu{
+
+    background: red;
+    position:static;
+}
+
+
+footer{
+    background-color: rgb(40, 54, 213);
+    color: #ffff;
+    display: flex;
+}
