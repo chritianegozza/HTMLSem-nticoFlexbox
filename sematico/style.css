@@ -2,18 +2,17 @@ body{
     width: 100%;
     padding: 15px;
     margin: 20px;
+    color: #ffff;
     background-color: cornflowerblue;
 }
 
 .menu{
-
-    background: red;
-    position:static;
+    display: flex;
+    gap: 10px;
 }
 
 
 footer{
     background-color: rgb(40, 54, 213);
-    color: #ffff;
-    display: flex;
+    color: #ffffff;
 }
