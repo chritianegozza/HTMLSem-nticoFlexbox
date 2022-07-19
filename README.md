@@ -3,9 +3,11 @@
 HTML Semântico
 ![image](https://user-images.githubusercontent.com/72118415/176350614-611ed971-115a-4dda-b475-5b6b8fcb81af.png)
 
+
 Flexbox
 
 ![image](https://user-images.githubusercontent.com/72118415/178883563-dc11cbd3-f1f7-47d4-9098-ebffe3d547fe.png)
+
 
 Grid
 
